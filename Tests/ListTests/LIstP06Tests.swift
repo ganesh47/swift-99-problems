@@ -8,7 +8,7 @@ import XCTest
 
 final class ListP06Tests: XCTestCase {
 
-    func testP05ReverseList() throws {
+    func testP06IsPalindrome() throws {
         self.measure {
             XCTAssertFalse((List(1, 2, 3)!.isPalindrome()),"Should've been false")
             XCTAssert((List(1)!.isPalindrome()),"Should've been true")

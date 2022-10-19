@@ -1,8 +1,8 @@
 //
 // List is either empty or it is composed of a first element (head) and tail, which is also a list
 //
-
-public class List<T:Equatable & CustomStringConvertible> {
+public protocol LinkedList {}
+public class List<T> :LinkedList{
 
     var head: T
     var tail: List<T>?
@@ -21,16 +21,14 @@ public class List<T:Equatable & CustomStringConvertible> {
 
 }
 // Equivalence definition of list is when its head as well as the tail are the same
-extension List : Equatable{
+extension List : Equatable where T: Equatable{
     public static func ==(lhs: List<T>, rhs: List<T>) -> Bool {
-        return lhs.head == rhs.head && lhs.tail == rhs.tail
+         lhs.head == rhs.head && lhs.tail == rhs.tail
     }
 }
 // String description for printing
-extension List : CustomStringConvertible {
+extension List : CustomStringConvertible  where T: CustomStringConvertible{
     public var description: String {
-        return " \(head),\(String(describing: tail)) "
+        " \(head),\(String(describing: tail)) "
     }
-
-
 }
