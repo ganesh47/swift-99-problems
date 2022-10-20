@@ -1,8 +1,8 @@
 //
 // List is either empty or it is composed of a first element (head) and tail, which is also a list
 //
-public protocol LinkedList {}
-public class List<T> :LinkedList{
+
+public class List<T> {
 
     var head: T
     var tail: List<T>?
