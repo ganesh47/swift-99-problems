@@ -1,5 +1,5 @@
 //
-// P05 Is list a palindrome
+// P07: Flatten a nested list structure.
 //
 
 import Foundation
