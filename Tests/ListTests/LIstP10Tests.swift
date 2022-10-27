@@ -2,9 +2,6 @@ import XCTest
 
 @testable import List
 
-typealias IntPair = (Int, Int)
-
-
 final class ListP10Tests: XCTestCase {
 
     func testP10RLE() {
