@@ -5,8 +5,10 @@
 import Foundation
 
 //Because a list has Equatable protocol implemented, it makes it easier to eliminate consecutive duplicates!
-
-public struct Encoded<T>: Equatable,CustomStringConvertible where T: Equatable {
+public protocol Encodeable<T> : Equatable, CustomStringConvertible{
+    associatedtype T
+}
+public struct Encoded<T>: Encodeable where T: Equatable {
     public var description: String
 
     public static func ==(lhs: Encoded<T>, rhs: Encoded<T>) -> Bool {
