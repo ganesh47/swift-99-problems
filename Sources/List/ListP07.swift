@@ -17,7 +17,7 @@ public extension List {
         }
         return self
     }
-    func flatten<U>() -> List<T> where T==U {
+    func flatten() -> List<T> {
          self
     }
     func flatten<U>() -> List<U> where T == List<U> {
