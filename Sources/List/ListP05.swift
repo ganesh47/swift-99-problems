@@ -10,10 +10,10 @@ public extension List {
     func append(_ item: T) -> List<T> {
         if let tail {
             self.tail = tail.append(item)
-            return self
         } else {
-            return List([head,item])!
+            self.tail = List(item)
         }
+        return self
     }
 }
 
