@@ -23,4 +23,4 @@ jobs:
           author_name: ganesh47
           author_email: 22994026+ganesh47@users.noreply.github.com
           message: 'CI: Adding coverage'
-          add: 'code-coverage-report.html'
+          add: 'code-coverage-report.html README.md'
