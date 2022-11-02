@@ -32,3 +32,76 @@ ListP21.swift                      13                 3    76.92%           5   
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 TOTAL                             226                29    87.17%          74                16    78.38%         367                33    91.01%           0                 0         -
 </pre>
+
+#### Compiler warnings (updated by CI)
+<pre>
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP09.swift:10:29: warning: same-type requirement makes generic parameter 'U' non-generic; this is an error in Swift 6
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP10.swift:29:13: warning: same-type requirement makes generic parameter 'U' non-generic; this is an error in Swift 6
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP11.swift:33:16: warning: same-type requirement makes generic parameter 'U' non-generic; this is an error in Swift 6
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP07.swift:12:14: warning: result of call to 'append' is unused
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP07.swift:15:18: warning: result of call to 'append' is unused
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP07.swift:28:22: warning: result of call to 'append' is unused
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP09.swift:10:29: warning: same-type requirement makes generic parameter 'U' non-generic; this is an error in Swift 6
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP10.swift:29:13: warning: same-type requirement makes generic parameter 'U' non-generic; this is an error in Swift 6
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP07.swift:12:14: warning: result of call to 'append' is unused
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP07.swift:15:18: warning: result of call to 'append' is unused
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP07.swift:28:22: warning: result of call to 'append' is unused
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP09.swift:10:29: warning: same-type requirement makes generic parameter 'U' non-generic; this is an error in Swift 6
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP10.swift:29:13: warning: same-type requirement makes generic parameter 'U' non-generic; this is an error in Swift 6
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP07.swift:12:14: warning: result of call to 'append' is unused
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP07.swift:15:18: warning: result of call to 'append' is unused
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP07.swift:28:22: warning: result of call to 'append' is unused
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP09.swift:10:29: warning: same-type requirement makes generic parameter 'U' non-generic; this is an error in Swift 6
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP10.swift:29:13: warning: same-type requirement makes generic parameter 'U' non-generic; this is an error in Swift 6
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP07.swift:12:14: warning: result of call to 'append' is unused
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP07.swift:15:18: warning: result of call to 'append' is unused
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP07.swift:28:22: warning: result of call to 'append' is unused
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP09.swift:10:29: warning: same-type requirement makes generic parameter 'U' non-generic; this is an error in Swift 6
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP10.swift:29:13: warning: same-type requirement makes generic parameter 'U' non-generic; this is an error in Swift 6
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP07.swift:12:14: warning: result of call to 'append' is unused
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP07.swift:15:18: warning: result of call to 'append' is unused
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP07.swift:28:22: warning: result of call to 'append' is unused
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP09.swift:10:29: warning: same-type requirement makes generic parameter 'U' non-generic; this is an error in Swift 6
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP10.swift:29:13: warning: same-type requirement makes generic parameter 'U' non-generic; this is an error in Swift 6
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP07.swift:12:14: warning: result of call to 'append' is unused
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP07.swift:15:18: warning: result of call to 'append' is unused
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP07.swift:28:22: warning: result of call to 'append' is unused
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP09.swift:10:29: warning: same-type requirement makes generic parameter 'U' non-generic; this is an error in Swift 6
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP10.swift:29:13: warning: same-type requirement makes generic parameter 'U' non-generic; this is an error in Swift 6
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP07.swift:12:14: warning: result of call to 'append' is unused
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP07.swift:15:18: warning: result of call to 'append' is unused
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP07.swift:28:22: warning: result of call to 'append' is unused
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP09.swift:10:29: warning: same-type requirement makes generic parameter 'U' non-generic; this is an error in Swift 6
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP10.swift:29:13: warning: same-type requirement makes generic parameter 'U' non-generic; this is an error in Swift 6
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP07.swift:12:14: warning: result of call to 'append' is unused
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP07.swift:15:18: warning: result of call to 'append' is unused
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP07.swift:28:22: warning: result of call to 'append' is unused
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP09.swift:10:29: warning: same-type requirement makes generic parameter 'U' non-generic; this is an error in Swift 6
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP10.swift:29:13: warning: same-type requirement makes generic parameter 'U' non-generic; this is an error in Swift 6
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP07.swift:12:14: warning: result of call to 'append' is unused
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP07.swift:15:18: warning: result of call to 'append' is unused
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP07.swift:28:22: warning: result of call to 'append' is unused
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP09.swift:10:29: warning: same-type requirement makes generic parameter 'U' non-generic; this is an error in Swift 6
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP10.swift:29:13: warning: same-type requirement makes generic parameter 'U' non-generic; this is an error in Swift 6
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP07.swift:12:14: warning: result of call to 'append' is unused
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP07.swift:15:18: warning: result of call to 'append' is unused
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP07.swift:28:22: warning: result of call to 'append' is unused
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP09.swift:10:29: warning: same-type requirement makes generic parameter 'U' non-generic; this is an error in Swift 6
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP10.swift:29:13: warning: same-type requirement makes generic parameter 'U' non-generic; this is an error in Swift 6
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP07.swift:12:14: warning: result of call to 'append' is unused
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP07.swift:15:18: warning: result of call to 'append' is unused
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP07.swift:28:22: warning: result of call to 'append' is unused
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP09.swift:10:29: warning: same-type requirement makes generic parameter 'U' non-generic; this is an error in Swift 6
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP10.swift:29:13: warning: same-type requirement makes generic parameter 'U' non-generic; this is an error in Swift 6
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP11.swift:33:16: warning: same-type requirement makes generic parameter 'U' non-generic; this is an error in Swift 6
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP11.swift:33:16: warning: same-type requirement makes generic parameter 'U' non-generic; this is an error in Swift 6
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP11.swift:33:16: warning: same-type requirement makes generic parameter 'U' non-generic; this is an error in Swift 6
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP11.swift:33:16: warning: same-type requirement makes generic parameter 'U' non-generic; this is an error in Swift 6
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP11.swift:33:16: warning: same-type requirement makes generic parameter 'U' non-generic; this is an error in Swift 6
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP11.swift:33:16: warning: same-type requirement makes generic parameter 'U' non-generic; this is an error in Swift 6
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP11.swift:33:16: warning: same-type requirement makes generic parameter 'U' non-generic; this is an error in Swift 6
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP11.swift:33:16: warning: same-type requirement makes generic parameter 'U' non-generic; this is an error in Swift 6
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP11.swift:33:16: warning: same-type requirement makes generic parameter 'U' non-generic; this is an error in Swift 6
+/home/runner/work/swift-99-problems/swift-99-problems/Sources/List/ListP11.swift:33:16: warning: same-type requirement makes generic parameter 'U' non-generic; this is an error in Swift 6
+</pre>
+
