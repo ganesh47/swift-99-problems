@@ -4,6 +4,7 @@
 
 Intent is to help learn swift, while interactively solving the 99 problem collection, as was designed to help practice logic-programming by "Werner Hett"
 
+####  Detailed test-coverage (updated by CI)
 <pre>
 Filename                      Regions    Missed Regions     Cover   Functions  Missed Functions  Executed       Lines      Missed Lines     Cover    Branches   Missed Branches     Cover
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
