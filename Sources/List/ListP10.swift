@@ -26,7 +26,8 @@ public struct Encoded<T>: Encodeable where T: Equatable {
 }
 
 public extension List {
-    func RLE<U>() -> List<U>? where U == Encoded<T>, T: Equatable {
+    func RLE() -> List<Encoded<T>>? where T: Equatable {
+        typealias U = Encoded<T>
         var toBeReturnable = List<U>(Encoded(1, head))
         if (tail == nil) {
             return toBeReturnable

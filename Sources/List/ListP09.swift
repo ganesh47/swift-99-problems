@@ -7,7 +7,8 @@ import Foundation
 //Because a list has Equatable protocol implemented, it makes it easier to eliminate consecutive duplicates!
 
 public extension List {
-    func subListConsecutives<U>() -> List<U>? where U == List<T>, T: Equatable {
+    func subListConsecutives() -> List<List<T>>? where  T: Equatable {
+        typealias U = List<T>
         var returnableList: List<U> = List<U>(List(head)!)!
         if tail == nil {
             return returnableList

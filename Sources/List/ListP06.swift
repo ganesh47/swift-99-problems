@@ -8,6 +8,6 @@ import Foundation
 
 public extension List where T:Equatable {
     func isPalindrome() -> Bool {
-        self == self.reverse()
+        self == reverse()
     }
 }

@@ -8,24 +8,27 @@ import Foundation
 
 
 public extension List {
-    func append(_ items:List<T>) -> List<T> {
-        self.append(items.head)
+    func append(_ items: List<T>) -> List<T> {
+        var toBeReturned = self
+        toBeReturned = toBeReturned.append(items.head)
         var tailZ = items.tail
-        while(tailZ != nil){
-            self.append(tailZ!.head)
+        while (tailZ != nil) {
+            toBeReturned = toBeReturned.append(tailZ!.head)
             tailZ = tailZ?.tail
         }
-        return self
+        return toBeReturned
     }
+
     func flatten() -> List<T> {
-         self
+        self
     }
+
     func flatten<U>() -> List<U> where T == List<U> {
-        let flatHead = head
-        if(tail == nil){
+        var flatHead = head
+        if (tail == nil) {
             return flatHead
-        }else{
-            flatHead.append((tail?.flatten())!)
+        } else {
+            flatHead = flatHead.append((tail?.flatten())!)
         }
         return flatHead
     }

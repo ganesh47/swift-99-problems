@@ -30,7 +30,8 @@ public struct ModEncoded<T>: Equatable, CustomStringConvertible where T: Equatab
 
 
 public extension List {
-    func RLEMod<U>() -> List<U>? where U == ModEncoded<T>, T: Equatable {
+    func RLEMod() -> List<ModEncoded<T>>? where T: Equatable {
+        typealias U = ModEncoded<T>
         var toBeReturnable = List<U>(ModEncoded(1, head))
         if (tail == nil) {
             return toBeReturnable

@@ -8,10 +8,10 @@ import Foundation
 
 public extension List {
     func append(_ item: T) -> List<T> {
-        if let tail {
-            self.tail = tail.append(item)
+        if let tailz = tail {
+            tail = tailz.append(item)
         } else {
-            self.tail = List(item)
+            tail = List(item)
         }
         return self
     }
