@@ -23,6 +23,7 @@ final class ListP08Tests: XCTestCase {
 
     func testP08removeConsecutiveDuplicates() {
         self.measure {
+            XCTAssertEqual(List(1)?.removeConsecutiveDuplicates(), List(1), "Should remain unchanged")
             XCTAssertEqual(List(1, 2)?.removeConsecutiveDuplicates(), List(1, 2), "Should remain unchanged")
             XCTAssertEqual(List(1, 2, 3)?.removeConsecutiveDuplicates(), List(1, 2, 3), "Should remain unchanged")
             XCTAssertEqual(List(1, 2, 3, 3)?.removeConsecutiveDuplicates(), List(1, 2, 3), "Should've changed")

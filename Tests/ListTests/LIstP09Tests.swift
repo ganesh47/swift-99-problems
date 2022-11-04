@@ -5,6 +5,7 @@ import XCTest
 final class ListP09Tests: XCTestCase {
     func testP09subListConsecutiveDuplicates() {
         self.measure {
+            XCTAssertEqual(List(1)?.subListConsecutives(), List(List(1)!), "Should've returned a sub-list of lists")
             XCTAssertEqual(List(1, 2)?.subListConsecutives(), List(List(1)!, List(2)!), "Should've returned a sub-list of lists")
             XCTAssertEqual(List(1, 1, 2)?.subListConsecutives(), List(List(1, 1)!, List(2)!), "Should've returned a sub-list of lists")
             XCTAssertEqual(List(1, 1, 2, 2)?.subListConsecutives(), List(List(1, 1)!, List(2, 2)!), "Should've returned a sub-list of lists")
