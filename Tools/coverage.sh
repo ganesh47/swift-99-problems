@@ -10,5 +10,6 @@ ${prefixCmd} llvm-cov show --format=html --instr-profile .build/debug/codecov/de
 
 
 export COVERAGE_TEXT=`${prefixCmd} llvm-cov report --instr-profile .build/debug/codecov/default.profdata ${objectArg}`
-export COMPILER_WARNINGS=`swift build | grep warning`
+export COMPILER_WARNING=`swift build | grep warning`
+export COMPILER_WARNINGS=${COMPILER_WARNING:-"No warnings! :)"}
 cat README.md.template | envsubst > README.md
