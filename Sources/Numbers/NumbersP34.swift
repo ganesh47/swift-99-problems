@@ -1,5 +1,5 @@
 //
-// Calcualte prime factors with frequency/coefficient of each factor
+// Calcualte prime factors with multiplicities of each factor
 //
 //This solves P34!
 
