@@ -8,6 +8,8 @@ import XCTest
 final class NumbersP29Tests: XCTestCase {
     func testIsPrime() {
         self.measure {
+            XCTAssertTrue(Numbers.isPrime(number: 1))
+            XCTAssertTrue(Numbers.isPrime(number: 2))
             XCTAssertTrue(Numbers.isPrime(number: 3))
             XCTAssertTrue(Numbers.isPrime(number: 7))
             XCTAssertTrue(Numbers.isPrime(number: 11))
