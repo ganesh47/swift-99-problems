@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-for file in .build/debug/List.build/*.o
+for file in .build/debug/*.build/*.o
 do
   objectArg="${objectArg} --object $file"
 done
