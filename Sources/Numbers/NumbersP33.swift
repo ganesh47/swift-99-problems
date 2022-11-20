@@ -1,7 +1,7 @@
 //
 // Created by Ganesh Raman on 10/11/22.
 //
-
+//This solves both P33 and P34!
 import Foundation
 
 extension Numbers {
