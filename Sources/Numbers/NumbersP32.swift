@@ -1,5 +1,5 @@
 //
-// Created by Ganesh Raman on 10/11/22.
+// Calcualte totient by nominal definition
 //
 
 import Foundation

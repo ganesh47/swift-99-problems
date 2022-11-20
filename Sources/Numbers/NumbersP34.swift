@@ -1,5 +1,5 @@
 //
-// Created by Ganesh Raman on 10/11/22.
+// Calcualte prime factors with frequency/coefficient of each factor
 //
 //This solves P34!
 

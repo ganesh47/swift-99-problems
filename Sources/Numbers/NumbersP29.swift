@@ -1,5 +1,5 @@
 //
-// Created by Ganesh Raman on 10/11/22.
+// Check if a number is prime
 //
 
 import Foundation

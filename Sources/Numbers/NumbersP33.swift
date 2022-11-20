@@ -1,5 +1,5 @@
 //
-// Created by Ganesh Raman on 10/11/22.
+// Calculate prime factors of a given number
 //
 //This solves both P33
 import Foundation
