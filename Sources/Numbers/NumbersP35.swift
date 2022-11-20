@@ -1,5 +1,5 @@
 //
-// Calcualte euler's totient using product formulae
+// Calculate euler's totient using product formulae
 //
 //This solves P35!
 
