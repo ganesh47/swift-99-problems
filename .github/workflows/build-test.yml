@@ -12,8 +12,8 @@ jobs:
       - uses: actions/checkout@v3
       - name: Build
         run: swift build
-      - name: Run tests
-        run: swift test --enable-code-coverage
+      - name: Run tests with performance metrics
+        run: bash ./Tools/metrics.sh
       - name: Generate HTML code-coverage report
         run: bash ./Tools/coverage.sh
         shell: bash
@@ -23,4 +23,4 @@ jobs:
           author_name: ganesh47
           author_email: 22994026+ganesh47@users.noreply.github.com
           message: 'CI: Adding coverage'
-          add: 'code-coverage-report.html README.md'
+          add: 'code-coverage-report.html README.md metrics.json'

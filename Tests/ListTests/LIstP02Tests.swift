@@ -4,6 +4,8 @@
 
 import XCTest
 @testable import List
+@testable import Numbers
+
 
 final class ListP02Tests: XCTestCase {
 
