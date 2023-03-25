@@ -9,7 +9,7 @@ let package = Package(
             // Products define the executables and libraries a package produces, and make them visible to other packages.
             .library(
                     name: "swift-99-problems",
-                    targets: ["List","Numbers"]), //ListPrecondition is not published, as its only used for tests
+                    targets: ["List","Numbers","Logic"]), //ListPrecondition is not published, as its only used for tests
         ],
         dependencies: [
             // Dependencies declare other packages that this package depends on.
@@ -24,6 +24,9 @@ let package = Package(
             .target(
                     name: "Numbers",
                     dependencies: ["List"]),
+            .target(
+                    name: "Logic",
+                    dependencies: []),
             .testTarget(
                     name: "ListTests",
                     dependencies: ["List"]
@@ -31,6 +34,10 @@ let package = Package(
             .testTarget(
                     name: "NumbersTests",
                     dependencies: ["Numbers"]
+            ),
+            .testTarget(
+                    name: "LogicTests",
+                    dependencies: ["Logic"]
             ),
         ]
 )
