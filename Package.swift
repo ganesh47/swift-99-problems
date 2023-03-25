@@ -23,7 +23,7 @@ let package = Package(
                     dependencies: []) ,
             .target(
                     name: "Numbers",
-                    dependencies: []),
+                    dependencies: ["List"]),
             .testTarget(
                     name: "ListTests",
                     dependencies: ["List"]

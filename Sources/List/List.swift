@@ -15,7 +15,7 @@ public class List<T> {
         tail = List(Array(values.suffix(from: 1)))
     }
 
-    convenience init?(_ values: T...) {
+    public convenience init?(_ values: T...) {
         self.init(Array(values))
     }
 
